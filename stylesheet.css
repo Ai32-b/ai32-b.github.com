@@ -1,0 +1,202 @@
+body {
+  font-family: Meiryo;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+a {
+  color: #009d8e;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header
+   ========================================================================== */
+
+header {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+}
+
+#logo {
+    width: 100%;
+    margin: 10px auto 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 0;
+}
+
+nav ul li {
+  width: 20%;
+  height: 30px;
+  list-style: none;
+  border-bottom: 5px solid #fff;
+}
+
+nav ul li:hover {
+  border-bottom: 5px solid #009d8d;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+}
+
+/* Cover
+   ========================================================================== */
+
+#cover {
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+#cover #slide {
+  text-align: center;
+}
+
+#cover #slide img{
+  width: 50%;
+  height: auto;
+  
+}
+
+article section {
+  margin-bottom: 40px;
+}
+
+article h2 {
+  color: #ffbe00;
+}
+
+article h3 {
+  color: #888;
+}
+
+/**
+ * Top-Button
+ */
+
+.btn-default {
+  background-color: #fff;
+  color: #009d8e;
+  border: 1px solid #009d8e;
+}
+
+/* Footer
+   ========================================================================== */
+
+#contact {
+  padding: 30px 0;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #ffbe00;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+#copyright {
+  padding: 15px 0;
+  text-align: center;
+  color: #ccc;
+  background-color: #333;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+
+.wp-block-image {
+    text-align: center;
+}
+
+.monthly-calendar{
+  margin: 0 auto;
+}
+
+/* Media Queries for Desktop
+   ========================================================================== */
+
+@media screen and (min-width: 1024px){
+}
+  /* Header
+     ================================= */
+  nav:not(.wp-calendar-nav) {
+    width: 900px;
+  }
+  nav ul li {
+    width: 160px;
+  }
+
+ 
+  /* Content
+     ================================= */
+  #content {
+    width: 900px;
+    margin: 0 auto;
+  }
+
+  aside {
+    width: 180px;
+    margin-left: center;
+  }
+
+  article {
+    width: 700px;
+    margin: 0 auto;
+ }
+
+
+.breadcrumbs {
+  width: 95%;
+  margin: 30px auto;
+}
+@media screen and (min-width: 1024px){
+ .breadcrumbs {
+   width: 900px;
+   margin: 10px auto;
+ }
+}
+
+.monthly-calendar{
+      width:80%;
+   }
+   
+#wrapper {
+    width: 984px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
